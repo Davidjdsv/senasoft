@@ -40,6 +40,8 @@ Su propósito no es reemplazar el SGVA, sino **complementarlo**, demostrando que
 
 ## PROMPTS:
 
+### PROMPT #1
+
 # 🎨 Actúa como:
 
 Un diseñador _UI/UX experto_ en aplicaciones educativas y de gestión de usuarios.
@@ -135,6 +137,8 @@ Una _descripción visual clara_ de la pantalla con todos los elementos aplicados
 ![Pantalla Search Companies](searchcompanies.png)
 
 ---
+
+### PROMPT #2
 
 # 🎨 Actúa como  
 Un diseñador *UI/UX experto* en aplicaciones educativas y de gestión de usuarios.  
@@ -232,6 +236,8 @@ Una *descripción visual clara* de la pantalla con todos los elementos aplicados
 ![Pantalla My applications](myapplications.png)
 
 ---
+
+### PROMPT #3
 
 # 🎨 Actúa como  
 Un diseñador *UI/UX experto* en aplicaciones educativas y de gestión de usuarios.  
@@ -380,3 +386,46 @@ Una **imagen realista de un modal moderno y minimalista**, con:
 # 🙋‍♂️ Realizado Por:
 
 Nicolas Manzano Muriel
+
+### PROMPT #4
+
+# 🖥️ Pantalla de Inicio – Aplicación Web SENA Match
+
+Actúo como experto en **UI/UX** especializado en aplicaciones educativas y de gestión de aprendices.  
+El diseño propuesto sigue un estilo **minimalista, moderno y accesible**, coherente con la paleta y lineamientos visuales previamente definidos.
+
+---
+
+## 📂 Menú lateral (Sidebar)
+- **Ubicación:** lado izquierdo de la pantalla.  
+- **Estilo:** fondo blanco con detalles en `#38a800`.  
+- **Interacción:** desplegable, con un icono tipo "hamburguesa" (`☰`) que al presionar abre o cierra el menú.  
+- **Opciones de navegación:**  
+  - Inicio  
+  - Buscar empresas  
+  - Consultar mis aplicaciones  
+
+👉 Cuando esté **colapsado**, se mostrarán solo iconos; cuando esté **expandido**, se mostrarán iconos + texto.
+
+---
+
+## 🏢 Cuerpo principal (Home)
+
+### 🎴 Tarjetas de recomendaciones de empresas
+- **Diseño de tarjetas:**  
+  - Bordes redondeados (`border-radius: 12px`).  
+  - Fondo blanco con sombra ligera para resaltar.  
+  - Margen amplio entre tarjetas para mantener aire visual.  
+  - Hover: resaltar borde en `#38a800` con transición suave.  
+
+### 📌 Contenido de cada tarjeta
+- **Nombre de la empresa** → en etiqueta `<h3>` con tipografía semibold.  
+  Ejemplo:  
+  ```html
+  <h3>Empresa XYZ</h3>
+
+![Modal Home](homemodal.jpeg)
+
+# 🙋‍♂️ Realizado Por:
+
+Jhoan David Sinisterra Valencia
